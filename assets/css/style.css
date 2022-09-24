@@ -1,6 +1,6 @@
 :root {
     --header-backgroud: #e6d6bd;
-    --alternate-color:  white;
+    --alternate-color:  rgb(225, 232, 198);
     --standard-border-radius:50px;
   }
   body {
@@ -25,13 +25,23 @@
     padding: 40px;
     text-align: center;
     background: var(--header-backgroud);
-    color: var(--alternate-color);
+    color:rgb(58, 42, 145);
+    text-shadow: 5px 5px 5px rgb(10, 11, 9);
+    
   }
   
+  header button {
+    width: 30%;
+    height: 30px;
+  }
   .dropdown-content a:hover {
     position:relative;
     display: inline-block;
   }
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown:hover .dropdown-content {display: block;}
+
   nav {
     display: flex;
     background-color: #d8a47f;
