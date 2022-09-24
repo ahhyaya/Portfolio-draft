@@ -1,5 +1,5 @@
 :root {
-    --header-backgroud: #13293d;
+    --header-backgroud: #e6d6bd;
     --alternate-color:  white;
     --standard-border-radius:50px;
   }
@@ -28,9 +28,17 @@
     color: var(--alternate-color);
   }
   
+  .dropdown-content a:hover {
+    position:relative;
+    display: inline-block;
+  }
   nav {
     display: flex;
     background-color: #d8a47f;
+    margin-inline: auto;
+    border-radius: 15px 0 15px 0;
+    width: 40%;
+    margin-top: 15px;
   }
   
   nav a {
